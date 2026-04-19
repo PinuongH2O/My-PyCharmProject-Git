@@ -335,6 +335,71 @@ print ("")
 # Bài 8: Dữ liệu dạng danh sách (List)
 print ("=== Bài 8: Dữ liệu dạng danh sách (List) ===")
 
+print ("")
+
+#Tạo list mẫu
+print ("=Tạo list mẫu=")
+List_mau = ["Pin", "Đức", 36, 67, True, False]
+print (List_mau)
+
+print ("")
+
+# Tạo List những người nổi tiếng
+print ("=Tạo List những người nổi tiếng=")
+Danh_sach_nhung_nguoi_noi_tieng = ["Độ Mixi", "Sơn Tùng MTP", "Jack", "Binz", "Đức Phúc", "Miu Lê"]
+print (Danh_sach_nhung_nguoi_noi_tieng)
+
+print ("")
+
+
+# Tạo List các số hợp lệ ngẫu nhiên
+print ("=Tạo List các số hợp lệ ngẫu nhiên=")
+Danh_sach_nhung_con_so_hoantoanngaunhien = [36, 67, 18, 69, 3.14]
+print (Danh_sach_nhung_con_so_hoantoanngaunhien)
+
+print ("")
+
+# Tạo List hai kiểu dữ liệu boolean
+print ("=Tạo List hai kiểu dữ liệu boolean=")
+Danh_sach_hai_KDL_bool = [True, False]
+print (Danh_sach_hai_KDL_bool)
+
+print ("")
+
+# Gọi dữ liệu trong List bằng chỉ số DƯƠNG
+print ("=Gọi dữ liệu trong List bằng chỉ số Dương=")
+print (f"Phần tử thứ 4 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[3]}") # Gọi phần tử thứ 4 trong List những người nổi tiếng
+print (f"Phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[2]}") # Gọi phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
+print (f"Vị trí của phần tử đầu tiên trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0]}")  # Gọi phần tử đầu tiên trong List hai kiểu dữ liệu boolean
+
+print ("")
+
+# Gọi dữ liệu trong List bằng chỉ số ÂM
+print ("=Gọi dữ liệu trong List bằng chỉ số ÂM=")
+print (f"Phần tử 3 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[-3]}") # Gọi phần tử cuối cùng trong List những người nổi tiếng
+print (f"Phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[-2]}") # Gọi phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên
+print (f"Vị trí của phần tử cuối cùng trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[-1]}")  # Gọi phần tử cuối cùng trong List hai kiểu dữ liệu boolean
+
+print ("")
+
+# Gọi tất cả phần thử ở vị trí mong muốn
+print ("=Gọi tất cả phần thử ở vị trí mong muốn=")
+print (f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[1:]}") # Gọi phần tử thứ 2 đến phần tử thứ 4 trong List những người nổi tiếng
+print (f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[1:]}") # Gọi phần tử thứ 2 đến phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
+print (f"Tất cả phần tử xuất phát từ phần tử thứ 1 trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0:]}")  # Gọi phần tử thứ 1 đến phần tử thứ 2 trong List hai kiểu dữ liệu boolean
+
+print ("")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
