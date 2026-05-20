@@ -1,43 +1,49 @@
-                                    # Thực hành bài cơ bản cùng Python
+# Thực hành bài cơ bản cùng Python
 # Bài 1: Viết trương trình đầu tiên
-print ("=== Bài 1: Viết trương trình đầu tiên ===")
+print("=== Bài 1: Viết trương trình đầu tiên ===")
 
-print ("Hello, world!")
+print("Hello, world!")
 # Bài 2: Biến và Kiểu dữ liệu trong Python
-print ("=== Bài 2: Biến và Kiểu dữ liệu trong Python ===")
+print("=== Bài 2: Biến và Kiểu dữ liệu trong Python ===")
 
 # Đây là 1 câu chuyện ngắn
-print ("Cuộc trò chuyện của Độ và Vũ")
-print ("Độ: Alo Vũ hả em")
-print ("Vũ: Không phải anh ơi")
-print ("Độ: Thôi em đừng có chối, em mà chối là anh đăng hết thông tin của em lên mạng đấy")
+print("Cuộc trò chuyện của Độ và Vũ")
+print("Độ: Alo Vũ hả em")
+print("Vũ: Không phải anh ơi")
+print(
+    "Độ: Thôi em đừng có chối, em mà chối là anh đăng hết thông tin của em lên mạng đấy"
+)
 
-print ("")
+print()
 
 # Tạo biến và thay đổi câu chuyện ngắn trên
 charactor1 = "Pin"
 charactor2 = "Sữa"
 
-print (f"Cuộc trò chuyện của {charactor1} và {charactor2}")
-print (f"{charactor1}: Alo {charactor2} hả {charactor2}")
-print (f"{charactor2}: Không phải {charactor1} ơi")
-print (f"{charactor1}: Thôi {charactor2} đừng có chối, {charactor2} mà chối là {charactor1} đăng hết thông tin của {charactor2} lên mạng đấy")
+print(f"Cuộc trò chuyện của {charactor1} và {charactor2}")
+print(f"{charactor1}: Alo {charactor2} hả {charactor2}")
+print(f"{charactor2}: Không phải {charactor1} ơi")
+print(
+    f"{charactor1}: Thôi {charactor2} đừng có chối, {charactor2} mà chối là {charactor1} đăng hết thông tin của {charactor2} lên mạng đấy"
+)
 # Bây giờ câu chuyện đã có những cái tên khác
 
-print ("")
+print()
 
 # Thêm một ví dụ nữa về thay đổi câu chuyện ngắn bằng biến, nhưng lần này có sự khác biệt
 
-print (f"Cuộc trò chuyện của {charactor1} và {charactor2}")
-print (f"{charactor1}: Alo {charactor2} hả {charactor2}")
+print(f"Cuộc trò chuyện của {charactor1} và {charactor2}")
+print(f"{charactor1}: Alo {charactor2} hả {charactor2}")
 
-print ("")
+print()
 
 charactor1 = "Lỳ"
 charactor2 = "Nguyên"
 
-print (f"{charactor2}: Không phải {charactor1} ơi")
-print (f"{charactor1}: Thôi {charactor2} đừng có chối, {charactor2} mà chối là {charactor1} đăng hết thông tin của {charactor2} lên mạng đấy")
+print(f"{charactor2}: Không phải {charactor1} ơi")
+print(
+    f"{charactor1}: Thôi {charactor2} đừng có chối, {charactor2} mà chối là {charactor1} đăng hết thông tin của {charactor2} lên mạng đấy"
+)
 # Lần này Lại tách ra thành 2 câu chuyện, biến charactor1 và charactor2 đã bị đổi giá trị và sẽ được sử dụng tiếp nếu không bị đổi giá trị sau này
 
 # Các biến sử dụng kiểu dữ liệu khác như
@@ -62,145 +68,145 @@ ChuoiH = "Pin love Python"
 Pin_dep_trai = True
 Sua_dep_trai = False
 
-print ("")
+print()
 
 # Bài 3: Thao tác với String (Chuỗi)
-print ("=== Bài 3: Thao tác với String (Chuỗi) ===")
+print("=== Bài 3: Thao tác với String (Chuỗi) ===")
 
 # Câu lệnh gốc
-print ("Độ Mixi bán khô gà và bã mía")
+print("Độ Mixi bán khô gà và bã mía")
 
-print ("")
+print()
 
 # Cho 1 phần String xuống dòng (Cách 1)
-print ("=Cho 1 phần String xuống dòng (Cách 1)=")
-print ("Độ Mixi bán \nkhô gà và bả mía")
+print("=Cho 1 phần String xuống dòng (Cách 1)=")
+print("Độ Mixi bán \nkhô gà và bả mía")
 
-print ("")
+print()
 
 # Cho 1 phần String xuống dòng (Cách 2)
-print ("=Cho 1 phần String xuống dòng (Cách 2)=")
-print ("""Độ Mixi bán
+print("=Cho 1 phần String xuống dòng (Cách 2)=")
+print("""Độ Mixi bán
 khô gà và bã mía""")
 
-print ("")
+print()
 
 # Thêm dấu ngoặc kép vào String mà không kết thúc String
-print ("=Thêm dấu ngoặc ke vào String mà không kết thúc String=")
-print ("Anh Độ Mixi bán \"Khô gà\" và \"Bã mía\"")
+print("=Thêm dấu ngoặc ke vào String mà không kết thúc String=")
+print('Anh Độ Mixi bán "Khô gà" và "Bã mía"')
 
-print ("")
+print()
 
 # In biến có sẵn String
-print ("=n biến có sẵn chuỗi=")
+print("=n biến có sẵn chuỗi=")
 Do_Mixi = "Độ Mixi bán khô gà và bã mía"
 
-print (Do_Mixi)
+print(Do_Mixi)
 
-print ("")
+print()
 
 # Ghép String vào 1 biến đã có String
-print ("=Ghép String vào 1 biến đã có String=")
-print (Do_Mixi + " ngon lắm")
+print("=Ghép String vào 1 biến đã có String=")
+print(Do_Mixi + " ngon lắm")
 
-print ("")
+print()
 
 # Hàm phổ biến để thao tác với String
-print ("=Hàm phổ biến để thao tác với String=")
-print ("")
+print("=Hàm phổ biến để thao tác với String=")
+print()
 
 ## Hàm upper()
-print ("Hàm upper()")
-print (Do_Mixi.upper())
+print("Hàm upper()")
+print(Do_Mixi.upper())
 
-print ("")
+print()
 
 ## Hàm lower()
-print ("Hàm lower()")
-print (Do_Mixi.lower())
+print("Hàm lower()")
+print(Do_Mixi.lower())
 
-print ("")
+print()
 
 ## Hàm isupper()
-print ("Hàm isupper()")
-print (Do_Mixi.isupper())
+print("Hàm isupper()")
+print(Do_Mixi.isupper())
 
-print ("")
+print()
 
 ## Hàm islower()
-print ("Hàm islower()")
-print (Do_Mixi.islower())
+print("Hàm islower()")
+print(Do_Mixi.islower())
 
-print ("")
+print()
 
 ## Chồng hàm
-print ("Chồng hàm")
-print (Do_Mixi.upper().isupper())
+print("Chồng hàm")
+print(Do_Mixi.upper().isupper())
 
-print ("")
+print()
 
 ## Hàm len()
-print ("Hàm len()")
-print (len(Do_Mixi))
+print("Hàm len()")
+print(len(Do_Mixi))
 
-print ("")
+print()
 
 ## Sử dụng dấu ngoặc vuông để chỉ định 1 chữ cái trông biến
-print ("Sử dụng dấu ngoặc vuông để chỉ định 1 chữ cái trông biến")
-print (Do_Mixi[3])
-print (Do_Mixi[6])
+print("Sử dụng dấu ngoặc vuông để chỉ định 1 chữ cái trông biến")
+print(Do_Mixi[3])
+print(Do_Mixi[6])
 
-print ("")
+print()
 
 ## Hàm index()
-print ("Hàm index()")
-print (Do_Mixi.index("M"))
-print (Do_Mixi.index("i"))
-print (Do_Mixi.index("x"))
-print (Do_Mixi.index("i"))
+print("Hàm index()")
+print(Do_Mixi.index("M"))
+print(Do_Mixi.index("i"))
+print(Do_Mixi.index("x"))
+print(Do_Mixi.index("i"))
 
-print (Do_Mixi.index("bán khô gà và bã mía"))
+print(Do_Mixi.index("bán khô gà và bã mía"))
 
-print ("")
+print()
 
 ## Hàm replace()
-print ("Hàm replace()")
-print (Do_Mixi.replace("Độ", "Pin"))
+print("Hàm replace()")
+print(Do_Mixi.replace("Độ", "Pin"))
 
-print ("")
+print()
 
 # Bài 4: Dữ liệu dạng số và các hàm số toán học
-print ("=== Bài 4: Dữ liệu dạng số và các hàm số toán học ===")
+print("=== Bài 4: Dữ liệu dạng số và các hàm số toán học ===")
 
-print ("")
+print()
 
 # Đơn giản hiển thị 1 số lên màn hình
-print ("=Đơn giản hiển thị 1 số lên màn hình=")
-print (36)
+print("=Đơn giản hiển thị 1 số lên màn hình=")
+print(36)
 
-print ("")
+print()
 
 # Thực hiện phép tính đơn giản
-print ("=Thực hiện phép tính đơn giản=")
-print (36+67) #Chẳng hạn
-print (3.6 - 6.7)
+print("=Thực hiện phép tính đơn giản=")
+print(36 + 67)  # Chẳng hạn
+print(3.6 - 6.7)
 
-print ("")
+print()
 
 # Thực hiện phép tính phức tạp hơn
-print ("=Thực hiện phép tính phức tạp hơn=")
-print (2*3+5/6)
-print (2.5*(3.14+5.4)/6.7)
+print("=Thực hiện phép tính phức tạp hơn=")
+print(2 * 3 + 5 / 6)
+print(2.5 * (3.14 + 5.4) / 6.7)
 
-print ("")
+print()
 
 # Thực hiện phép tính phức tạp hơn nữa
-print ("=Thực hiện phép tính phức tạp hơn nữa=")
-print (5%2)
-print ((5/2)/2)
+print("=Thực hiện phép tính phức tạp hơn nữa=")
+print(5 % 2)
+print((5 / 2) / 2)
 
 # In biến Number
-print ("=In biến Number=")
+print("=In biến Number=")
 
 #! Tạo biến
 Thanh_Hoa = 36
@@ -209,199 +215,544 @@ Thanh_Hoa_Thuc = 3.6
 So_thuc = 6.1
 
 #! In biến Number
-print (Thanh_Hoa)
+print(Thanh_Hoa)
 
-print ("")
+print()
 
 # Hàm số học cơ bản
-print ("Hàm số học cơ bản")
+print("Hàm số học cơ bản")
 ## Hàm str()
-print ("Hàm str()")
-print (str(Thanh_Hoa) + " là số của Thanh Hoá")
+print("Hàm str()")
+print(str(Thanh_Hoa) + " là số của Thanh Hoá")
 
-print ("")
+print()
 
 ## Hàm abs()
-print ("Hàm abs()")
-print ("Giá trị tuyệt đối của \"Am_Thanh_Hoa\" là: " + str(abs(Am_Thanh_Hoa)))
+print("Hàm abs()")
+print('Giá trị tuyệt đối của "Am_Thanh_Hoa" là: ' + str(abs(Am_Thanh_Hoa)))
 
-print ("")
+print()
 
 ## Hàm pow()
-print ("Hàm pow()")
-print ("Thanh_Hoa mũ 3 bằng: "+ str(pow(Thanh_Hoa, 3)))
-print ("3 mũ Thanh_Hoa bằng: " + str(pow(3, Thanh_Hoa)))
-print ("36 mũ 3 bằng: " + str(pow(36, 3)))
+print("Hàm pow()")
+print("Thanh_Hoa mũ 3 bằng: " + str(pow(Thanh_Hoa, 3)))
+print("3 mũ Thanh_Hoa bằng: " + str(pow(3, Thanh_Hoa)))
+print("36 mũ 3 bằng: " + str(pow(36, 3)))
 
-print ("")
+print()
 
 ## Hàm max()
-print ("Hàm max()")
-print ("Số lớn nhất giữa 2 và 3 là: " + str(max(2, 3)))
-print ("Số lớn nhất giữa 2, 3 và 4 là: " + str(max(2, 3, 4)))
-print ("Sô lớn nhất giữa \"Thanh_Hoa\" và 3 là: " + str(max(3, Thanh_Hoa)))
+print("Hàm max()")
+print("Số lớn nhất giữa 2 và 3 là: " + str(max(2, 3)))
+print("Số lớn nhất giữa 2, 3 và 4 là: " + str(max(2, 3, 4)))
+print('Sô lớn nhất giữa "Thanh_Hoa" và 3 là: ' + str(max(3, Thanh_Hoa)))
 
-print ("")
+print()
 
 ## Hàm min()
-print ("Hàm min()")
-print ("Số bé nhất giữa 2 và 3 là: " + str(min(2, 3)))
-print ("Số bé nhất giữa 2, 3 và 4 là: " + str(min(2, 3, 4)))
-print ("Sô bé nhất giữa \"Thanh_Hoa\" và 3 là: " + str(min(3, Thanh_Hoa)))
+print("Hàm min()")
+print("Số bé nhất giữa 2 và 3 là: " + str(min(2, 3)))
+print("Số bé nhất giữa 2, 3 và 4 là: " + str(min(2, 3, 4)))
+print('Sô bé nhất giữa "Thanh_Hoa" và 3 là: ' + str(min(3, Thanh_Hoa)))
 
-print ("")
+print()
 
 ## Hàm round()
-print ("Hàm round()")
-print ("Làm tròn số 3.6 thành: " + str(round(3.6)))
-print ("Làm tròn số 3.2 thành: " + str(round(3.2)))
-print ("Làm tròn Thanh_Hoa_Thuc thành: " + str(round(Thanh_Hoa_Thuc)))
-print ("Làm tròn So_Thuc thành: " + str(round(So_thuc)))
+print("Hàm round()")
+print("Làm tròn số 3.6 thành: " + str(round(3.6)))
+print("Làm tròn số 3.2 thành: " + str(round(3.2)))
+print("Làm tròn Thanh_Hoa_Thuc thành: " + str(round(Thanh_Hoa_Thuc)))
+print("Làm tròn So_Thuc thành: " + str(round(So_thuc)))
 
-print ("")
+print()
 
 # Hàm số học với thư viện "math"
-print ("Hàm số học với thư viện \"math\"")
+print('Hàm số học với thư viện "math"')
 import math as ma
 
 ## Hàm floor()
-print ("Hàm floor()")
-print ("Làm tròn xuống số 3.6 thành: " + str(ma.floor(3.6)))
-print ("Làm tròn xuống số 3.2 thành: " + str(ma.floor(3.2)))
-print ("Làm tròn xuống Thanh_Hoa_Thuc thành: " + str(ma.floor(Thanh_Hoa_Thuc)))
-print ("Làm tròn xuống So_Thuc thành: " + str(ma.floor(So_thuc)))
+print("Hàm floor()")
+print("Làm tròn xuống số 3.6 thành: " + str(ma.floor(3.6)))
+print("Làm tròn xuống số 3.2 thành: " + str(ma.floor(3.2)))
+print("Làm tròn xuống Thanh_Hoa_Thuc thành: " + str(ma.floor(Thanh_Hoa_Thuc)))
+print("Làm tròn xuống So_Thuc thành: " + str(ma.floor(So_thuc)))
 
-print ("")
+print()
 
 ## Hàm ceil()
 print("Hàm ceil()")
-print ("Làm tròn lên số 3.6 thành: " + str(ma.ceil(3.6)))
-print( "Làm tròn lên số 3.2 thành: " + str(ma.ceil(3.2)))
-print ("Làm tròn lên Thanh_Hoa_Thuc thành: " + str(ma.ceil(Thanh_Hoa_Thuc)))
-print ("Làm tròn lên So_Thuc thành: " + str(ma.ceil(So_thuc)))
+print("Làm tròn lên số 3.6 thành: " + str(ma.ceil(3.6)))
+print("Làm tròn lên số 3.2 thành: " + str(ma.ceil(3.2)))
+print("Làm tròn lên Thanh_Hoa_Thuc thành: " + str(ma.ceil(Thanh_Hoa_Thuc)))
+print("Làm tròn lên So_Thuc thành: " + str(ma.ceil(So_thuc)))
 
-print ("")
+print()
 
 ## Hàm sqrt()
-print ("Hàm sqrt()")
-print ("Căn bậc 2 của 36 là: " + str(ma.sqrt(36)))
-print ("Căn bậc 2 của Thanh_Hoa là: " + str(ma.sqrt(Thanh_Hoa)))
+print("Hàm sqrt()")
+print("Căn bậc 2 của 36 là: " + str(ma.sqrt(36)))
+print("Căn bậc 2 của Thanh_Hoa là: " + str(ma.sqrt(Thanh_Hoa)))
 
-print ("")
+print()
 
 # Bài 5: Nhận dữ liệu người dùng nhập vào
-print ("=== Bài 5: Nhận dữ liệu người dùng nhập vào ===")
+print("=== Bài 5: Nhận dữ liệu người dùng nhập vào ===")
 
-print ("")
+print()
 
 # Sử dụng hàm input() để nhận dữ liệu người dùng nhập vào
-print ("=Sử dụng hàm input() để nhận dữ liệu người dùng nhập vào=")
+print("=Sử dụng hàm input() để nhận dữ liệu người dùng nhập vào=")
 Ten_nguoi_dung = input("Tên bạn là gì? ")
 Tuoi_nguoi_dung = float(input("Bạn năm nay bao nhiêu tuổi? "))
-print ("Xin chào, " + Ten_nguoi_dung + "! Rất vui được gặp bạn!" + "Năm nay bạn " + str(Tuoi_nguoi_dung) +"tuổi á!")
+print(
+    "Xin chào, "
+    + Ten_nguoi_dung
+    + "! Rất vui được gặp bạn!"
+    + "Năm nay bạn "
+    + str(Tuoi_nguoi_dung)
+    + "tuổi á!"
+)
 
-print ("")
+print()
 
 # Thu ngắn hàm print() bằng "f" string
-print ("=Thu ngắn hàm print() bằng \"f\" string=")
-print (f"Xin chào, {Ten_nguoi_dung}! Rất vui được gặp bạn! Năm nay bạn {Tuoi_nguoi_dung} tuổi á!")
+print('=Thu ngắn hàm print() bằng "f" string=')
+print(
+    f"Xin chào, {Ten_nguoi_dung}! Rất vui được gặp bạn! Năm nay bạn {Tuoi_nguoi_dung} tuổi á!"
+)
 
-print ("")
+print()
 
 # Bài 7: Nối chuỗi với hàm format()
-print ("=== Bài 7: Nối chuỗi với hàm format() ===")
+print("=== Bài 7: Nối chuỗi với hàm format() ===")
 
 # Cách 1:
-print ("=Cách 1:=")
-print ("Xin chào, " + Ten_nguoi_dung + "! Rất vui được gặp bạn!" + "Năm nay bạn " + str(float(Tuoi_nguoi_dung))  +"tuổi á!")
+print("=Cách 1:=")
+print(
+    "Xin chào, "
+    + Ten_nguoi_dung
+    + "! Rất vui được gặp bạn!"
+    + "Năm nay bạn "
+    + str(float(Tuoi_nguoi_dung))
+    + "tuổi á!"
+)
 
-print ("")
+print()
 
 # Cách 2:
-print ("=Cách 2:=")
-print (f"Xin chào, {Ten_nguoi_dung}! Rất vui được gặp bạn! Năm nay bạn {float(Tuoi_nguoi_dung)} tuổi á!")
+print("=Cách 2:=")
+print(
+    f"Xin chào, {Ten_nguoi_dung}! Rất vui được gặp bạn! Năm nay bạn {float(Tuoi_nguoi_dung)} tuổi á!"
+)
 
-print ("")
+print()
 
 # Cách 3 (Bài học chính):
-print ("=Cách 3 (Bài học chính):=")
-print ("Xin chào, {}! Rất vui được gặp bạn! Năm nay bạn {} tuổi á!".format(Ten_nguoi_dung, Tuoi_nguoi_dung))
+print("=Cách 3 (Bài học chính):=")
+print(
+    "Xin chào, {}! Rất vui được gặp bạn! Năm nay bạn {} tuổi á!".format(
+        Ten_nguoi_dung, Tuoi_nguoi_dung
+    )
+)
 
 #! Hoặc
-print ("Xin chào, Năm nay bạn {1} tuổi á! Rất vui được gặp {0}! ".format(Ten_nguoi_dung, Tuoi_nguoi_dung))
+print(
+    "Xin chào, Năm nay bạn {1} tuổi á! Rất vui được gặp {0}! ".format(
+        Ten_nguoi_dung, Tuoi_nguoi_dung
+    )
+)
 
-print ("")
+print()
 
 # Bài 8: Dữ liệu dạng danh sách (List)
-print ("=== Bài 8: Dữ liệu dạng danh sách (List) ===")
+print("=== Bài 8: Dữ liệu dạng danh sách (List) ===")
 
-print ("")
+print()
 
-#Tạo list mẫu
-print ("=Tạo list mẫu=")
+# Tạo và in list mẫu
+print("=Tạo list mẫu=")
 List_mau = ["Pin", "Đức", 36, 67, True, False]
-print (List_mau)
+print(List_mau)
 
-print ("")
+print()
 
-# Tạo List những người nổi tiếng
-print ("=Tạo List những người nổi tiếng=")
-Danh_sach_nhung_nguoi_noi_tieng = ["Độ Mixi", "Sơn Tùng MTP", "Jack", "Binz", "Đức Phúc", "Miu Lê"]
-print (Danh_sach_nhung_nguoi_noi_tieng)
+# Tạo và in  List những người nổi tiếng
+print("=Tạo List những người nổi tiếng=")
+Danh_sach_nhung_nguoi_noi_tieng = [
+    "Độ Mixi",
+    "Sơn Tùng MTP",
+    "Jack",
+    "Binz",
+    "Đức Phúc",
+    "Miu Lê",
+]
+print(Danh_sach_nhung_nguoi_noi_tieng)
 
-print ("")
+print()
 
 
-# Tạo List các số hợp lệ ngẫu nhiên
-print ("=Tạo List các số hợp lệ ngẫu nhiên=")
+# Tạo và in List các số hợp lệ ngẫu nhiên
+print("=Tạo List các số hợp lệ ngẫu nhiên=")
 Danh_sach_nhung_con_so_hoantoanngaunhien = [36, 67, 18, 69, 3.14]
-print (Danh_sach_nhung_con_so_hoantoanngaunhien)
+print(Danh_sach_nhung_con_so_hoantoanngaunhien)
 
-print ("")
+print()
 
-# Tạo List hai kiểu dữ liệu boolean
-print ("=Tạo List hai kiểu dữ liệu boolean=")
+# Tạo và in List hai kiểu dữ liệu boolean
+print("=Tạo List hai kiểu dữ liệu boolean=")
 Danh_sach_hai_KDL_bool = [True, False]
-print (Danh_sach_hai_KDL_bool)
+print(Danh_sach_hai_KDL_bool)
 
-print ("")
+print()
 
 # Gọi dữ liệu trong List bằng chỉ số DƯƠNG
-print ("=Gọi dữ liệu trong List bằng chỉ số Dương=")
-print (f"Phần tử thứ 4 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[3]}") # Gọi phần tử thứ 4 trong List những người nổi tiếng
-print (f"Phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[2]}") # Gọi phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
-print (f"Vị trí của phần tử đầu tiên trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0]}")  # Gọi phần tử đầu tiên trong List hai kiểu dữ liệu boolean
+print("=Gọi dữ liệu trong List bằng chỉ số Dương=")
+print(
+    f"Phần tử thứ 4 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[3]}"
+)  # Gọi phần tử thứ 4 trong List những người nổi tiếng
+print(
+    f"Phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[2]}"
+)  # Gọi phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
+print(
+    f"Vị trí của phần tử đầu tiên trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0]}"
+)  # Gọi phần tử đầu tiên trong List hai kiểu dữ liệu boolean
 
-print ("")
+print()
 
 # Gọi dữ liệu trong List bằng chỉ số ÂM
-print ("=Gọi dữ liệu trong List bằng chỉ số ÂM=")
-print (f"Phần tử 3 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[-3]}") # Gọi phần tử cuối cùng trong List những người nổi tiếng
-print (f"Phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[-2]}") # Gọi phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên
-print (f"Vị trí của phần tử cuối cùng trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[-1]}")  # Gọi phần tử cuối cùng trong List hai kiểu dữ liệu boolean
+print("=Gọi dữ liệu trong List bằng chỉ số ÂM=")
+print(
+    f"Phần tử 3 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[-3]}"
+)  # Gọi phần tử cuối cùng trong List những người nổi tiếng
+print(
+    f"Phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[-2]}"
+)  # Gọi phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên
+print(
+    f"Vị trí của phần tử cuối cùng trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[-1]}"
+)  # Gọi phần tử cuối cùng trong List hai kiểu dữ liệu boolean
 
-print ("")
+print()
 
 # Gọi tất cả phần thử ở vị trí mong muốn
-print ("=Gọi tất cả phần thử ở vị trí mong muốn=")
-print (f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[1:]}") # Gọi phần tử thứ 2 đến phần tử thứ 4 trong List những người nổi tiếng
-print (f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[1:]}") # Gọi phần tử thứ 2 đến phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
-print (f"Tất cả phần tử xuất phát từ phần tử thứ 1 trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0:]}")  # Gọi phần tử thứ 1 đến phần tử thứ 2 trong List hai kiểu dữ liệu boolean
+print("=Gọi tất cả phần thử ở vị trí mong muốn=")
+print(
+    f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những người nổi tiếng là: {Danh_sach_nhung_nguoi_noi_tieng[1:]}"
+)  # Gọi phần tử thứ 2 đến phần tử thứ 4 trong List những người nổi tiếng
+print(
+    f"Tất cả phần tử xuất phát từ phần tử thứ 2 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien[1:]}"
+)  # Gọi phần tử thứ 2 đến phần tử thứ 3 trong List những con số hợp lệ ngẫu nhiên
+print(
+    f"Tất cả phần tử xuất phát từ phần tử thứ 1 trong List hai kiểu dữ liệu boolean là: {Danh_sach_hai_KDL_bool[0:]}"
+)  # Gọi phần tử thứ 1 đến phần tử thứ 2 trong List hai kiểu dữ liệu boolean
 
-print ("")
+print()
+
+# Thay đổi giá trị trong List
+print("=Thay đổi giá trị trong List=")
+Danh_sach_nhung_nguoi_noi_tieng[0] = "Captain Boy"
+print(
+    f"List những người nổi tiếng sau khi thay đổi phần tử đầu tiên là: {Danh_sach_nhung_nguoi_noi_tieng}"
+)
+Danh_sach_nhung_con_so_hoantoanngaunhien[2] = 21
+print(
+    f"List những con số hợp lệ ngẫu nhiên sau khi thay đổi phần tử thứ 3 là: {Danh_sach_nhung_con_so_hoantoanngaunhien}"
+)
+Danh_sach_hai_KDL_bool[1] = True
+print(
+    f"List hai kiểu dữ liệu boolean sau khi thay đổi phần tử thứ 2 là: {Danh_sach_hai_KDL_bool}"
+)
+
+print()
+
+# Bài 9: Hàm thao tác với List
+print("=== Bài 9: Hàm thao tác với List ===")
+
+#! Tạo List
+Danh_sach_hoc_sinh_lop_7A9 = [
+    "T.Đức",
+    "L.Đức",
+    "Duy",
+    "Khánh",
+    "Hoàng",
+    "Huy",
+    "Tình",
+    "Hào",
+    "Nhân",
+    "Đ.Khôi",
+]
+Danh_sach_diem_mon_Toan_7A9 = [36, 67, 69, 18, 3.14, 3.6, 6.7, 100]
+Danh_sach_nhung_nguoi_dep_trai = [
+    "Minh Đức",
+    "Tô Đức",
+    "Đức",
+    "Pin",
+    "Pin uống H2O",
+    "Tô Minh Đức",
+]
+
+## Hàm print()
+print("Hàm print()")
+print(Danh_sach_hoc_sinh_lop_7A9)
+print(Danh_sach_diem_mon_Toan_7A9)
+print(Danh_sach_nhung_nguoi_dep_trai)
+
+print()
+
+## Hàm extend()
+print("Hàm extend()")
+Danh_sach_hoc_sinh_lop_7A9.extend(str(Danh_sach_diem_mon_Toan_7A9))
+print(
+    f"List học sinh lớp 7A9 sau khi được thêm điểm môn Toán là: {Danh_sach_hoc_sinh_lop_7A9}"
+)
+
+print()
+
+## Hàm append()
+print("Hàm append()")
+Danh_sach_nhung_nguoi_dep_trai.append("Tô Minh Đức")
+print(
+    f'List những người đẹp trai sau khi được thêm "Tô Minh Đức" là: {Danh_sach_nhung_nguoi_dep_trai}'
+)
+
+print()
+
+## Hàm insert()
+print("Hàm insert()")
+Danh_sach_nhung_nguoi_noi_tieng.insert(0, "Tô Đức")
+print(
+    f'List những người nổi tiếng sau khi được thêm "Tô Đức" vào vị trí đầu tiên là: {Danh_sach_nhung_nguoi_noi_tieng}'
+)
+
+print()
+
+## Hàm remove()
+print("Hàm remove()")
+Danh_sach_nhung_nguoi_noi_tieng.remove("Tô Đức")
+print(
+    f'List những người nổi tiếng sau khi được xóa "Tô Đức" là: {Danh_sach_nhung_nguoi_noi_tieng}'
+)
+
+print()
+
+## Hàm clear()
+print("Hàm clear()")
+Danh_sach_diem_mon_Toan_7A9.clear()
+print(
+    f"List điểm môn Toán sau khi được xóa tất cả phần tử là: {Danh_sach_diem_mon_Toan_7A9}"
+)
+
+print()
+
+## Hàm pop()
+print("Hàm pop()")
+Danh_sach_nhung_con_so_hoantoanngaunhien.pop()
+print(
+    f"List những con số hợp lệ ngẫu nhiên sau khi được xóa phần tử cuối cùng là: {Danh_sach_nhung_con_so_hoantoanngaunhien}"
+)
+
+print()
+
+## Hàm index()
+print("Hàm index()")
+print(
+    f"Vị trí của phần tử 69 trong List những con số hợp lệ ngẫu nhiên là: {Danh_sach_nhung_con_so_hoantoanngaunhien.index(69)}"
+)
+
+print()
+
+## Hàm count()
+print("Hàm count()")
+print(
+    f'Số lần xuất hiện của "Tô Minh Đức" trong List những người đẹp trai là: {Danh_sach_nhung_nguoi_dep_trai.count("Tô Minh Đức")}'
+)
+
+print()
+
+## Hàm sort()
+print("Hàm sort()")
+Danh_sach_nhung_con_so_hoantoanngaunhien.sort()
+Danh_sach_nhung_nguoi_noi_tieng.sort()
+print(
+    f"List điểm môn Toán sau khi được sắp xếp là: {Danh_sach_nhung_con_so_hoantoanngaunhien}"
+)
+print(
+    f"List những người nổi tiếng sau khi được sắp xếp là: {Danh_sach_nhung_nguoi_noi_tieng}"
+)
+
+print()
+
+## Hàm reverse()
+print("Hàm reverse()")
+Danh_sach_nhung_con_so_hoantoanngaunhien.reverse()
+Danh_sach_nhung_nguoi_noi_tieng.reverse()
+print(
+    f"List những con số hợp lệ ngẫu nhiên sau khi được đảo ngược là: {Danh_sach_nhung_con_so_hoantoanngaunhien}"
+)
+print(
+    f"List những người nổi tiếng sau khi được đảo ngược là: {Danh_sach_nhung_nguoi_noi_tieng}"
+)
+
+print()
+
+## Hàm copy
+Danh_sach_diem_mon_Toan_7A9_copy = Danh_sach_nhung_con_so_hoantoanngaunhien.copy()
+print(
+    f"List điểm môn Toán sau khi được copy từ List những con số hợp lệ ngẫu nhiên là: {Danh_sach_diem_mon_Toan_7A9_copy}"
+)
+
+print()
+
+## Đây chỉ là 1 số hàm cơ bản của danh sách/list, có thể tìm hiểu thêm trên mxh
+
+# Bài 10: Cấu trúc dữ liệu "tuple". Sự khác nhau giữa tuple và list
+print('===Bài 10: Cấu trúc dữ liệu "tuple". Sự khác nhau giữa tuple và list===')
+
+#! Tạo tuple mẫu
+tuple_mau = ("Pin đẹp trai", 36, True)
+
+# In tuple
+print(tuple_mau)
+
+print()
+
+# In từng phần tử của tuple
+print(tuple_mau[0], tuple_mau[1], tuple_mau[2])
 
 
+#! Tạo list chứa tuple
+list_chua_tuple = [("tuple string 1", "tuple string 2"), (3, 4), (True, False)]
+
+print()
+
+# In list chứa tuple
+print(list_chua_tuple)
+
+print()
+
+# Bài 11: Thao tác với hàm
+print("===Bài 11: Thao tác với hàm===")
 
 
+#! Tạo hàm mẫu
+def ham_mau():
+    print("Đây là hàm mẫu")
 
 
+# Gọi hàm mãu
+ham_mau()
+
+print()
+
+# Cách hàm hoat động
+print("Start")
+ham_mau()
+print("End")
+
+print()
 
 
+#! Tạo hàm có tham số
+def profile(name, age, hobby):
+    print(f"Bạn tên là: {name}")
+    print(f"Tuổi bạn là: {age}")
+    print(f"Sở thích: {hobby}")
 
 
+# Gọi hàm có tham số
+profile("Pin", 13, "coding")
+
+print()
+
+# Bài 12: Câu lệnh return trong hàm
+print("===Bài 12: Câu lệnh return trong hàm===")
 
 
+#! Tạo hàm có câu lệnh return
+def plus(value1, value2):
+    return value1 + value2
+    print("Đây là câu lệnh sau return, sẽ không được thực hiện")
 
+
+# Gọi hàm có câu lệnh return
+result = plus(3, 5)
+print(f"Kết quả của phép cộng là: {result}")
+
+print()
+
+# Bài 13: Câu lệnh điều kiện if, elif và else
+print("===Bài 13: Câu lệnh điều kiện if, elif và else===")
+
+# Áp dụng điều kiện if
+if SoA < SoB:
+    print("SoA lớn hơn SoB")
+
+print()
+
+#! Thay đổi giá trị hai biến
+SoA = 10
+SoB = 5
+
+# Áp dụng lại với điều kiện if và elif
+if SoA < SoB:
+    print("SoA lớn hơn SoB")
+elif SoA > SoB:
+    print("SoA nhỏ hơn SoB")
+
+print()
+
+#! Thay đổi giá trị của SoA và SoB để thấy sự khác biệt
+SoA = 100
+SoB = 100
+
+# Áp dụng với điều kiện if, elif và else
+if SoA > SoB:
+    print("SoA lớn hơn SoB")
+elif SoA < SoB:
+    print("SoA nhỏ hơn SoB")
+else:
+    print("SoA bằng SoB")
+
+print()
+
+# Bài 14: Các toán tử logic
+print("===Bài 14: Các toán tử logic===")
+
+#! Thay đổi giá trị lần nữa
+SoA = 200
+SoB = 50
+SoC = 100
+
+# Toán tử and với điều kiện if
+print("=Toán tử and=")
+
+if SoA > SoB and SoA > SoC:
+    print("SoA lớn hơn cả SoB và SoC và điều kiện này đúng")
+
+print()
+
+#! Thay đổi giá trị để if trở thành sai
+SoA = 50
+if SoA > SoB and SoA > SoC:
+    print("SoA bằng SoB và bé hơn SoC nên điều kiện này sai")
+
+print()
+
+# Toán tử or
+print("=Toán tử or=")
+if SoA == SoB or SoA == SoC:
+    print("Có ít nhất 1 số bằng với SoA và điều kiện này đúng")
+
+#! Thay đổi giá trị để if trở thành sai
+SoA = 200
+if SoA == SoB or SoA == SoC:
+    print("Không có số nào bằng với SoA nên điều kiện này sai")
+
+# Toán tử "not"
+print(not Sua_dep_trai)
+
+# Áp dụng với điều kiện if
+if not SoA == SoB:
+    print("SoA không bằng SoB nên điều kiện này đúng")
 
 
 
